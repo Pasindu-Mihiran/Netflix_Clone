@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+    color:white;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.navbar{
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:3% 5%;
+    z-index: 10;
+}
+
+.navbar_brand{
+    width: 100px;
+    height:100%;
+}
+
+.brand_logo{
+    width: 100%;
+    height: 100%;
+}
+
+.languageSelect{
+    background : transparent;
+    border : none;
+    color:white;
+}
+
+.languageSelect:focus{
+    outline: none;
+}
+
+.dropdown_container{
+    border:1px solid white;
+    padding:0.2em;
+    border-radius:3px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.signin_button{
+    background-color: #dc030f;
+    border : 1px solid #dc030f;
+    color:white;
+    padding:0.25em 0.5em;
+    border-radius:4px;
+}
+
+.nav_items{
+    display: flex;
+    gap :15px;
+}
+
+.hero_bg_image_container{
+    width:100%;
+    height:75vh;
+}
+
+.hero_bg_image{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.hero_bg_overlay{
+    position: absolute;
+    inset:0;
+    width:100%;
+    height:75vh;
+    background-color:rgba(0,0,0,0.4) ;
+}
+
+.hero_card{
+    position: absolute;
+    top:30%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.hero_title{
+    font-weight:600;
+    font-size:2em;
+}
+ 
+.hero_subtitle,.hero_discription{
+    font-weight:400;
+    font-size: 1em;
+}
+
+@media(min-width:768px){
+    .hero_bg_image_container{
+        height: 100vh;
+    }
+    .hero_bg_overlay{
+        height: 100vh; 
+    }
+
+    .hero_card{
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .hero__title {
+        font-size: 3rem;
+      }
+      .hero__subtitle,
+      .hero__description {
+        font-size: 1.3rem;
+      }
+}
+
+@media(min-width:1024px){
+    .navbar{
+        padding:2% 5%;
+    }
+    .navbar_brand{
+        width:150px;
+    }
+    .signin_button{
+        padding:10px 20px;
+        font-size:18px;
+    }
+    .dropdown_container{ 
+        padding:10px 5px;
+    }
+    .nav_items{
+        gap:30px;
+    }
+    .hero__card {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media(min-width:1254px){
+}
