@@ -172,30 +172,30 @@
     padding: 2rem 1rem;
   }
   
-  .feature__details {
+  .feature_details {
     text-align: center;
   }
   
-  .feature__title {
+  .feature_title {
     font-size: 25px;
     font-weight: 600;
     margin: 10px 0;
   }
   
-  .feature__sub__title {
+  .feature_sub_title {
     font-size: 15px;
     font-weight: 400;
   }
   
-  .feature__image__container {
+  .feature_image_container {
     width: 100%;
     position: relative;
   }
-  .feature__image {
+  .feature_image {
     width: 100%;
   }
   
-  .feature__backgroud__video__container {
+  .feature_backgroud_video_container {
     position: absolute;
     width: 100%;
     top: 20%;
@@ -206,7 +206,7 @@
     z-index: -2;
   }
   
-  .feature__backgroud__video {
+  .feature_backgroud_video {
     width: 100%;
   }
 
