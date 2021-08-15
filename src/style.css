@@ -388,6 +388,7 @@
   .footer_row_4{
     padding: 0 1rem;
   }
+
   @media (min-width: 768px) {
     .hero__bg__image__container {
       height: 100vh;
@@ -478,12 +479,17 @@
     }
 
     .footer_row_1,.footer_row_3 {
-      padding: 0 4.5rem;
+      /* margin-right: 2rem; */
+      padding: 0 6.2rem;
     }
 
     .footer_row_4{
-      padding: 0 5.5rem;
+      padding: 0 7.2rem;
     }
+
+    /* .footer_row_2{
+      margin-left:1rem;
+    } */
   }
 
   @media (min-width: 1024px) {
@@ -526,14 +532,6 @@
     .feature:nth-child(even)
     {
       flex-direction: row-reverse;
-    }
-
-    .footer_row_1,.footer_row_3 {
-      padding: 0 4.5rem;
-    }
-
-    .footer_row_4{
-      padding: 0 5.5rem;
     }
   }
   
